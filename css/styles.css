@@ -4,13 +4,14 @@ html {
 }
 
 *, *::before, *::after{
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 body {
     background-image: url(../img/scene00121.jpg);
     background-size: 100%;
     color: white;
     font-size: 1.3rem;
+    background-color: #FFFFFF;
     
 }
 
@@ -260,15 +261,21 @@ PARTE INFERIOR DERECHA = BOTTOM:  ;  LEFT:  ;*/
     font-size: 1rem;
     align-items: flex-end;
 }
+
 .ubicacion p{
     height: 2px;
     font-size: .7rem;
     font-weight: 500;
 }
 
-.afinal {
+.afinal, .container {
     font-size: 10px;
     text-align: center;
+}
+
+.container{
+    text-align: end;
+    margin-right: 10px;
 }
 
 .bottom{ 
