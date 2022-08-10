@@ -11,7 +11,6 @@ body {
     background-size: 100%;
     color: white;
     font-size: 1.3rem;
-    background-color: #FFFFFF;
     
 }
 
@@ -256,12 +255,12 @@ PARTE INFERIOR DERECHA = BOTTOM:  ;  LEFT:  ;*/
     margin: 0%;
 }
 
+
 .ubicacion {
     display: flex;
     font-size: 1rem;
     align-items: flex-end;
 }
-
 .ubicacion p{
     height: 2px;
     font-size: .7rem;
