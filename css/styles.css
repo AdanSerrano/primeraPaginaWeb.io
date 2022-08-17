@@ -7,7 +7,6 @@ body {
     background-position-y: white;
     font-size: 1.3rem;
     background-image: linear-gradient(to top, #dfe9df 0%, white 100%);
-box-sizing: content-box;
 }
 
 h1{
