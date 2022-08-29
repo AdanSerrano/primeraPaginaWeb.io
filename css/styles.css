@@ -56,13 +56,13 @@ h1,h2,h3{
     
 }
 
-.titulo, .real{
+.titulo{
     background-size: 100%;
     margin: 1px;
 }
 
 .contenedor {
-    max-width: 120rem;
+    max-width: 100%;
     margin: 0 auto;
     border-radius: 30px;
 }
@@ -296,6 +296,7 @@ PARTE INFERIOR DERECHA = BOTTOM:  ;  LEFT:  ;*/
 /*Contenedor Adan*/
 .SobreAdan{
     display: grid;
+    padding: 10px;
     /*grid-template-columns: 300px;*/
 }
 
@@ -385,21 +386,27 @@ PARTE INFERIOR DERECHA = BOTTOM:  ;  LEFT:  ;*/
 }
 @media (min-width: 498px) {
     .SobreAdan{
-        grid-template-columns: 1fr 1fr;
+        flex-direction: row;
     }
     .Formulario {
         padding-left: 7rem;
         padding-right: 7rem;
     }
 }
+@media (min-width: 620px) {
+    .SobreAdan{
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media (min-width: 955px) {
     .SobreAdan{
         grid-template-columns: 1fr 1fr 1fr;
     }
+    
 }
 
 footer {
-    width: 100vw;
+    max-width: 100%;
     background: black;
     color: white;
     text-align: justify;
