@@ -61,6 +61,27 @@ h1,h2,h3{
     margin: 1px;
 }
 
+.logoAdan { 
+    text-align: end;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.logoAdan a{
+        color: rgb(211, 0, 0);
+        justify-content: flex-start;
+        text-decoration: none;
+        font-weight: 1000;
+        padding: 6px;
+}
+
+.logoAdan:hover {
+    color:black
+}
 .contenedor {
     max-width: 100%;
     margin: 0 auto;
@@ -427,5 +448,4 @@ footer p{
 
 footer div{
     text-align: end;
-    margin-right: 15px;
 }
