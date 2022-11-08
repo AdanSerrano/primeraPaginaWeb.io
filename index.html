@@ -30,14 +30,6 @@
            TODO SOBRE MI
         </h2>
         <br>
-
-        <nav class="logoAdan">
-            <div>
-                <a href="#">Aneth</a>
-                <a href="#">Aneth</a>
-                <a href="#">Aneth</a>
-            </div>
-        </nav>
     </header>
     <div class="nav_bg">
         <nav class="navegacion_principal contenedor" >
@@ -82,7 +74,7 @@
                     <path d="M4.5 12.5l8 -8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1 -7 -7" />
                 </svg>
             </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt assumenda aut suscipit hic eveniet et nam magni, commodi numquam excepturi itaque corporis. Sapiente fuga dicta, molestiae consequatur sequi eveniet saepe.</p> 
+            <h3>MARCA = TOYOTA</h3>
             <button class="buuton">+ Info</button>
         </section>
 
@@ -111,55 +103,65 @@
                 <button class="buuton">+ Info</button>
         </section>
     </div>
-</main> <!--.FINALIZACION DE sobreAdan-->
-       
+    
     <section class="Formulario">
         <div class="sombra2">
             <h2>CONTACTOS </h2>
             <form>
-                <legend>
-                    PARA PODER CONTACTARME CONTIGO
-                </legend>
+                <fieldset>
+                    <legend>
+                        PARA PODER CONTACTARME CONTIGO
+                    </legend>
+                <div class="contendor-campo">
 
-                <div>
-                    <label>
-                        NOMBRE 
-                    </label>
-                    <input type="text"   placeholder="Nombre">
+                    <div class="campo">
+                        <label>
+                            NOMBRE 
+                        </label>
+                        <input class="input-text" type="text"   placeholder="Nombre">
+                    </div>
+                    
+                    <div class="campo">
+                        <label>
+                            APELLIDO 
+                        </label>
+                        <input class="input-text" type="text"   placeholder="Apellido">
+                    </div>
+                    <div class="campo">
+                        <label>
+                            EMAIL 
+                        </label>
+                        <input class="input-text" type="email"   placeholder="Email">
+                    </div>
+                    <div class="campo">
+                        <label>
+                            CONTRASEÑA
+                        </label>
+                        <input class="input-text" type="password"   placeholder="Email">
+                    </div>
+                    <div class="campo">
+                        <label>
+                            TELEFONO  
+                        </label>
+                        <input class="input-text" type="tel"   placeholder="Telefono">
+                    </div>
+                    <div class="campo">
+                        <label>
+                            MENSAJE 
+                        </label>
+                        <br>
+                        <textarea class="mensaje" name="Mensaje" id="" rows="5"></textarea>
+                    </div>
+                </div> <!-- contenedor de los campos -->
+                <div class="alinear-derecha flex">
+                    <input class="bottom-form w-sm-100" type="submit" value="Enviar">
                 </div>
-
-                <div>
-                    <label>
-                        APELLIDO 
-                    </label>
-                    <input type="text"   placeholder="Apellido">
-                </div>
-
-                <div>
-                    <label>
-                    TELEFONO  
-                    </label>
-                    <input type="tel"   placeholder="Telefono">
-                </div>
-                
-                <div>
-                    <label>
-                        EMAIL 
-                    </label>
-                    <input type="email"   placeholder="Email">
-                </div>
-
-                <div>
-                    <label>
-                        MENSAJE 
-                    </label>
-                    <textarea name="Mensaje" id="" rows="5"></textarea>
-                </div>
-                <input type="submit" value="Enviar">
+                </fieldset>
             </form>
         </div>
     </section>
-        <footer>
+</main>
+    <footer>
             <p>TODOS LOS DERECHOS RESERVADOS</p>
             <div>
                     &copy; ADÁN SERRANO
