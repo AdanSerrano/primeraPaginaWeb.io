@@ -1,5 +1,11 @@
 html {
     font-size: 65.2%;
+    scroll-snap-type: y mandatory;
+}
+/*scroll snap*/
+.SobreAdan, .navegacion_principal, .Formulario, .footer{
+    scroll-snap-align: center;
+    scroll-snap-stop: always ;
 }
 
 *, :after, :before {
@@ -361,7 +367,6 @@ PARTE INFERIOR DERECHA = BOTTOM:  ;  LEFT:  ;*/
     text-align: center;
 }
 
-
 .servicio{
     display: flex;
     flex-direction: column;
@@ -510,12 +515,18 @@ footer {
 
 footer p{
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     padding-top: 10px;
 }
 
 footer div{
     text-align: end;
+    font-size: 15px;
+}
+
+.footer{
+    text-align: center;
+    padding: 3rem;
 }
 
 @media (min-width: 350px) {
